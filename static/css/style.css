@@ -1,0 +1,38 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background-color: #333333;
+    color: #B27EFC;
+}
+
+body a {
+    color: #FE6EC1;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+#content a:hover {
+    background-color: #FE6EC1;
+    color: #333333;
+}
+
+.header a {
+    text-align: center;
+    margin: 0px auto;
+}
+
+.header a:hover {
+    background-color: #333333;
+}
+
+.header h1 {
+    display: inline-block;
+    font-family: 'Train One', cursive;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 100;
+    line-height: 1;
+}

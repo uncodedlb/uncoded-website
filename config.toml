@@ -1,0 +1,4 @@
+baseURL = "https://uncoded.org/"
+languageCode = "en-us"
+title = "Uncoded"
+theme = "uncoded"
