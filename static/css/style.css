@@ -19,6 +19,11 @@ body a {
     color: #333333;
 }
 
+.header {
+  top: 50%;
+  transform: ttranslateY(-50%);
+}
+
 .header a {
     text-align: center;
     margin: 0px auto;
@@ -35,4 +40,12 @@ body a {
     font-size: 64px;
     font-weight: 100;
     line-height: 1;
+}
+
+.logosquare {
+  display: inline-block;
+  width: 72px;
+  height: 72px;
+  background-color: blue;
+  margin-bottom: -10px;
 }
