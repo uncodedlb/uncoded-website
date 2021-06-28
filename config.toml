@@ -2,3 +2,6 @@ baseURL = "https://uncoded.org/"
 languageCode = "en-us"
 title = "Uncoded"
 theme = "uncoded"
+
+[permalinks]
+  posts = "/:year/:month/:title/"

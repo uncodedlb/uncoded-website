@@ -16,7 +16,7 @@ body a {
 
 #content a:hover {
     background-color: #FE6EC1;
-    color: #333333;
+    color: #333333;ug
 }
 
 .header {
@@ -46,6 +46,40 @@ body a {
   display: inline-block;
   width: 72px;
   height: 72px;
-  background-color: blue;
   margin-bottom: -10px;
+  background-image: url(/images/uncoded-button-logo.svg);
+  background-position: center;
+  background-size: cover;
+}
+
+.headarea {
+    text-align: center;
+}
+  
+.headarea .logo {
+    transition: 0.1s;
+}
+  
+.headarea .logo:hover {
+    transform: scale(0.95) rotate(-3deg);
+}
+
+.contentblock {
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px;
 }

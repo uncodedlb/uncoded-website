@@ -1,17 +1,13 @@
 {{define "main"}}
 
+<!--Content-->
+<div class="contentblock">
 <!--Title-->
 <h2>{{.Title}}</h2>
 
 <!--Date-->
-{{.Date.Format "2006-01-30"}}
-
-<!--TOC-->
-{{.TableOfContents}}
-
-<!--Content-->
 {{.Content}}
-
+</div>
 <!--Tag-->
 <ul>
 	{{range (.GetTerms "tags")}}
@@ -22,6 +18,9 @@
 <!--Prev/Next-->
 {{with .PrevInSection}}Prev <a href="{{.RelPermalink}}">{{.Title}}</a>{{end}}
 {{with .NextInSection}}Next <a href="{{.RelPermalink}}">{{.Title}}</a>{{end}}
+
+<!--TOC-->
+{{.TableOfContents}}
 
 <!--Related-->
 {{$related := .Site.RegularPages.Related . | first 5}}
